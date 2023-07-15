@@ -1,3 +1,4 @@
+let history = [];
 var dataSearch1 = [];
 var dataSearch2 = [];
 
@@ -158,26 +159,27 @@ function reset() {
   $("#righto").hide();
 }
 
-let history = [];
-
 function buttons(histori) {
-  for (let i = 0; i < history.length; i++) {
-    $("history").append(
+  for (let i = 0; i < histori.length; i++) {
+    $("#histori").append(
       '<button class="btn btn-primary" type="button">' +
-        history[i] +
+        histori[i] +
         "</button>"
     );
   }
 }
 
-//load from local storage
+// load from local storage
 function getItem() {
-  histori = JSON.parse(localStorage["history"]);
-  buttons();
+  history = JSON.parse(localStorage.getItem("cities"));
+  console.log(history);
+  if (history.length > 0) {
+    buttons(history);
+  }
 }
 
 // save to local storage
 function saveItems() {
-  history = histry.push(cities);
-  localStorage.setItem(cities, JSON.stringify(history));
+  history.push(cities);
+  localStorage.setItem("cities", JSON.stringify(history));
 }
