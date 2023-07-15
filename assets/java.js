@@ -5,6 +5,7 @@ init();
 // hides the right part
 function init() {
   $("#righto").hide();
+  getItem();
 }
 
 $("#city").click(function () {
@@ -101,6 +102,7 @@ function displaydata(city1) {
   fiveDaysForecast(dataSearch2);
 }
 
+// five days forecast
 function fiveDaysForecast(eachDay) {
   var eachDayInfo = [
     eachDay.list[7],
@@ -135,6 +137,7 @@ function fiveDaysForecast(eachDay) {
     );
   }
   $("#righto").show();
+  saveItems();
 }
 
 //resetting
@@ -153,4 +156,28 @@ function reset() {
   $("#day4").text("");
 
   $("#righto").hide();
+}
+
+let history = [];
+
+function buttons(histori) {
+  for (let i = 0; i < history.length; i++) {
+    $("history").append(
+      '<button class="btn btn-primary" type="button">' +
+        history[i] +
+        "</button>"
+    );
+  }
+}
+
+//load from local storage
+function getItem() {
+  histori = JSON.parse(localStorage["history"]);
+  buttons();
+}
+
+// save to local storage
+function saveItems() {
+  history = histry.push(cities);
+  localStorage.setItem(cities, JSON.stringify(history));
 }
