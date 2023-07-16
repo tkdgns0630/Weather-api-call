@@ -35,7 +35,7 @@ $("#city").on("keypress", function (event) {
 //get lat lon
 function firstApiCall(cities) {
   var queryString =
-    "http://api.openweathermap.org/geo/1.0/direct?q=" +
+    "https://api.openweathermap.org/geo/1.0/direct?q=" +
     cities +
     "&limit=5&appid=73c378629294c549e2c71b1fd86ee988";
 
@@ -59,7 +59,7 @@ function secondApiCall(whether) {
   dataSearch1Lon = dataSearch1[0].lon;
 
   var queryString1 =
-    "http://api.openweathermap.org/data/2.5/forecast?lat=" +
+    "https://api.openweathermap.org/data/2.5/forecast?lat=" +
     dataSearch1Lat +
     "&lon=" +
     dataSearch1Lon +
