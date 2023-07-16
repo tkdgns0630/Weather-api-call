@@ -1,6 +1,8 @@
+var cities;
 let history = [];
 var dataSearch1 = [];
 var dataSearch2 = [];
+//display history
 
 init();
 // hides the right part
@@ -11,12 +13,16 @@ function init() {
 
 $("#city").click(function () {
   reset();
+  $("#righto").hide();
 });
 //add click handler on search
 $(document).ready(function () {
   $("#button").click(function () {
     cities = $("#city").val().trim().replaceAll(" ", "%20");
     firstApiCall(cities);
+    if (cities.length > 0) {
+      reset();
+    }
   });
 });
 // add keypress handler on enter
@@ -90,9 +96,9 @@ function displaydata(city1) {
   );
   $("#temp").append(
     "Temp: " +
-      (Math.round((280 - dataSearch2.list[0].main.temp) * 100) / 100).toFixed(
-        1
-      ) +
+      (
+        Math.round((dataSearch2.list[0].main.temp - 273.15) * 100) / 100
+      ).toFixed(1) +
       " °C"
   );
   $("#wind").append("Wind: " + dataSearch2.list[0].wind.speed + " MPH");
@@ -125,7 +131,9 @@ function fiveDaysForecast(eachDay) {
         weathericon +
         ">" +
         "<br><br> temp: " +
-        (Math.round((280 - eachDayInfo[i].main.temp) * 100) / 100).toFixed(1) +
+        (Math.round((eachDayInfo[i].main.temp - 273.15) * 100) / 100).toFixed(
+          1
+        ) +
         " °C" +
         "<br><br>" +
         "Wind: " +
@@ -138,7 +146,11 @@ function fiveDaysForecast(eachDay) {
     );
   }
   $("#righto").show();
-  saveItems();
+  if (cities && cities.length > 0) {
+    saveItems();
+  }
+  $("#histori").text("");
+  getItem();
 }
 
 //resetting
@@ -155,31 +167,57 @@ function reset() {
   $("#day2").text("");
   $("#day3").text("");
   $("#day4").text("");
-
-  $("#righto").hide();
 }
 
+// make history buttons and click handlers on them
 function buttons(histori) {
-  for (let i = 0; i < histori.length; i++) {
-    $("#histori").append(
-      '<button class="btn btn-primary" type="button">' +
-        histori[i] +
-        "</button>"
-    );
+  if (histori.length < 9) {
+    for (let i = 0; i < histori.length; i++) {
+      $("#histori").append(
+        '<button class="btn btn-primary historing value = ' +
+          [i] +
+          '" type="button">' +
+          histori[i] +
+          "</button>"
+      );
+    }
+  } else {
+    for (let i = 0; i < 9; i++) {
+      $("#histori").append(
+        '<button class="btn btn-primary historing value = ' +
+          [i] +
+          '" type="button">' +
+          histori[i] +
+          "</button>"
+      );
+    }
   }
+  $(".value").on("click", function (event) {
+    reset();
+    cities = "";
+    var buttan = event.target;
+    var text1 = buttan.innerHTML;
+    firstApiCall(text1);
+  });
 }
 
 // load from local storage
 function getItem() {
   history = JSON.parse(localStorage.getItem("cities"));
-  console.log(history);
-  if (history.length > 0) {
+  if (history && history.length > 0) {
     buttons(history);
   }
 }
 
 // save to local storage
 function saveItems() {
-  history.push(cities);
+  if (history === null) {
+    history = [cities];
+  } else {
+    history.unshift(cities);
+  }
+  if (history.length > 9) {
+    history.pop();
+  }
   localStorage.setItem("cities", JSON.stringify(history));
 }
