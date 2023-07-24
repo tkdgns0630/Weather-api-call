@@ -1,4 +1,4 @@
-- [dog] (#license)
+- [dog](#license)
 
 # Weather-api-call
 
