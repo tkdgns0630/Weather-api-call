@@ -1,4 +1,4 @@
-[dog] (#Description)
+[dog] (#description)
 
 # Weather-api-call
 
