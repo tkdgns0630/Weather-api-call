@@ -1,3 +1,10 @@
+```html preview-story
+
+  Hello world!
+  Click me!
+
+```
+
 dog <a name="title"/>
 
 dog <a name="description"/>
