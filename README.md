@@ -32,7 +32,8 @@
    ## Linkedin <a name ="linkedin"/>
    o
 
-   ## License <a name ="license"/>Apache license 2.0__ https://www.apache.org/licenses/LICENSE-2.0
+   ## License <a name ="license"/>
+   Apache license 2.0__ https://www.apache.org/licenses/LICENSE-2.0
 
  ## Github Username <a name ="githubusername"/>
  o
