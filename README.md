@@ -7,7 +7,7 @@
 - [Description](#description)
 - [Installation](#installation)
 - [Instructions](#instructions)
-- [Contribution guideline](#Contribution)
+- [Contribution guideline](#contribution)
 - [Linkedin](#linkedin)
 - [License](#license)
 - [Github-username](#githubusername)
@@ -26,7 +26,7 @@
    ## Instructions <a name="instructions"/>
    dog
 
-   ## Contribution guideline <a name ="Contribution"/>
+   ## Contribution guideline <a name ="contribution"/>
    dog
 
    ## Linkedin <a name ="linkedin"/>
