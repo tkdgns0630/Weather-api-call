@@ -1,8 +1,6 @@
-## Badges <a name ="Badges"/>
-      
-  #[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)#d <a name="title"/>
+## Badges <a name ="Badges"/>[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)#o <a name="title"/>
 
-     ##d <a name="description"/>
+     ##o <a name="description"/>
 
     ## Table of Contents
 
@@ -18,16 +16,16 @@
     - [Email-address](#emailaddress)
 
     ## Installation <a name="installation"/>
-    d
+    o
 
     ## Instructions <a name="instructions"/>
-    d
+    o
 
     ## Github <a name ="github"/>
-    d
+    o
 
     ## Linkedin <a name ="linkedin"/>
-    d
+    o
 
     ## License <a name ="license"/>
 
@@ -36,39 +34,6 @@
 
     ## Email address <a name ="emailaddress"/>;
     
-
-## Badges <a name ="Badges"/>
-
-## Table of Contents
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Badges](#badges)
-- [Title](#title)
-- [Description](#description)
-- [Installation](#installation)
-- [Instructions](#instructions)
-- [Github](#github)
-- [Linkedin](#linkedin)
-- [License](#license)
-- [Githubusername](#githubusername)
-- [Emailaddress](#emailaddress)
-
-## Installation <a name="installation"/>
-
-## Instructions <a name="instructions"/>
-
-
-## Github <a name ="Github"/>
-
-## Linkedin <a name ="linkedin"/>
-
-## Github Username <a name ="githubusername"/>
-
-## Email address <a name ="emailaddress"/>
-
-
-
 
 
 
