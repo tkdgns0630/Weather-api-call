@@ -1,5 +1,12 @@
-```js client
-console.log('hi')
+## This is my-card
+
+Here's an example of the component:
+
+```html preview-story
+
+  Hello world!
+  Click me!
+
 ```
 
 dog <a name="title"/>
