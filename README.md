@@ -1,7 +1,5 @@
-```html preview-story
-
-  Hello world!
-  Click me!
+```
+  console.log('Hello world!')
 
 ```
 
