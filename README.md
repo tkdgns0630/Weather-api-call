@@ -1,5 +1,5 @@
 ```js client
-// execute me
+console.log('hi')
 ```
 
 dog <a name="title"/>
