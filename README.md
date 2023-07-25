@@ -1,12 +1,17 @@
-## This is my-card
+## This is my-el
 
-Here's an example of the component:
+<my-el></my-el>
 
-```html preview-story
+```js client
+import { LitElement, html } from 'https://unpkg.com/lit-element?module';
 
-  Hello world!
-  Click me!
+class MyEl extends LitElement {
+  render() {
+    this.innerHTML = 'I am alive';
+  }
+}
 
+customElements.define('my-el', MyEl);
 ```
 
 dog <a name="title"/>
