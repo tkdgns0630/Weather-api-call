@@ -1,6 +1,5 @@
-```
-  console.log('Hello world!')
-
+```js client
+// execute me
 ```
 
 dog <a name="title"/>
