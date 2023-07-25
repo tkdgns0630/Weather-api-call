@@ -21,7 +21,7 @@
    o
    
    ## Installation <a name="installation"/>
-   o
+   oo
 
    ## Instructions <a name="instructions"/>
    o
@@ -33,7 +33,8 @@
    o
 
    ## License <a name ="license"/>
-   Apache license 2.0__ https://www.apache.org/licenses/LICENSE-2.0
+   Apache license 2.0
+   https://www.apache.org/licenses/LICENSE-2.0
 
    ## Github Username <a name ="githubusername"/>
    o
