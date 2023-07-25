@@ -1,9 +1,7 @@
- `## Badges <a name ="Badges"/>` +
-  license1.renderLicenseBadge(type) +
-  `
-  \#${title} <a name="title"/>
+## Badges <a name ="Badges"/>[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  #d <a name="title"/>
 
-     ##${description} <a name="description"/>
+     ##d <a name="description"/>
 
     ## Table of Contents
 
@@ -19,24 +17,24 @@
     - [Email-address](#emailaddress)
 
     ## Installation <a name="installation"/>
-    ${installation}
+    d
 
     ## Instructions <a name="instructions"/>
-    ${Instructions}
+    d
 
     ## Github <a name ="github"/>
-    ${github}
+    d
 
     ## Linkedin <a name ="linkedin"/>
-    ${linkedin}
+    d
 
     ## License <a name ="license"/>
 
     ## Github Username <a name ="githubusername"/>
-    ${GithubUserName}
+    
 
     ## Email address <a name ="emailaddress"/>;
-    ${EmailAddress}`;
+    
 
 
 
