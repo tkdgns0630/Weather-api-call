@@ -1,9 +1,9 @@
 ## Badges <a name ="Badges"/>[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-  #d <a name="title"/>
+   # <a name="title"/>
 
-     ##d <a name="description"/>
-
-    ## Table of Contents
+   ## <a name="description"/>
+   
+   ## Table of Contents
 
     - [Badges](#badges)
     - [Title](#title)
@@ -17,16 +17,16 @@
     - [Email-address](#emailaddress)
 
     ## Installation <a name="installation"/>
-    d
+    
 
     ## Instructions <a name="instructions"/>
-    d
+    
 
     ## Github <a name ="github"/>
-    d
+    
 
     ## Linkedin <a name ="linkedin"/>
-    d
+    
 
     ## License <a name ="license"/>
 
@@ -34,6 +34,7 @@
     
 
     ## Email address <a name ="emailaddress"/>;
+    
     
 
 
