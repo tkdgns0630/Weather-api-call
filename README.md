@@ -1,4 +1,4 @@
-## Badges <a name ="Badges"/>[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+## Badges <a name ="Badges"/>[![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)
   
 ## Table of Contents
 
@@ -15,32 +15,33 @@
 
 
    # Title <a name="title"/>
-   o 
+   whether 
 
    ## Description <a name="description"/>
-   o
+   checks whether for the next five days
    
    ## Installation <a name="installation"/>
-   oo
+   yes inqurier
 
    ## Instructions <a name="instructions"/>
-   o
+   generate the file and run in github
 
    ## Github <a name ="github"/>
-   o
+   run node index.js
 
    ## Linkedin <a name ="linkedin"/>
-   o
+   public code so just push
 
    ## License <a name ="license"/>
-   Apache license 2.0
-   https://www.apache.org/licenses/LICENSE-2.0
+   MIT License 
+   https://opensource.org/license/mit/
 
    ## Github Username <a name ="githubusername"/>
-   o
+   Github: tkdgns0630 
+   Github address : https://github.com/tkdgns0630
 
    ## Email address <a name ="emailaddress"/>;
-   o
+   Any questions please contact : tkdgns0630@gmail.com
    
     
 
