@@ -7,7 +7,7 @@
 - [Description](#description)
 - [Installation](#installation)
 - [Instructions](#instructions)
-- [Contribution guideline](#github)
+- [Contribution guideline](#Contribution)
 - [Linkedin](#linkedin)
 - [License](#license)
 - [Github-username](#githubusername)
@@ -21,16 +21,16 @@
    dog
    
    ## Installation <a name="installation"/>
-   dogo
+   dog
 
    ## Instructions <a name="instructions"/>
-   o
+   dog
 
-   ## Contribution guideline <a name ="github"/>
-   o
+   ## Contribution guideline <a name ="Contribution"/>
+   dog
 
    ## Linkedin <a name ="linkedin"/>
-   o
+   dog
 
    ## License <a name ="license"/>
    Apache license 2.0
