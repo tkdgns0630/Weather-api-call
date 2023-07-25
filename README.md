@@ -1,4 +1,4 @@
-## Badges <a name ="Badges"/>[![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)
+## Badges <a name ="Badges"/>[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
   
 ## Table of Contents
 
@@ -7,7 +7,7 @@
 - [Description](#description)
 - [Installation](#installation)
 - [Instructions](#instructions)
-- [Github](#github)
+- [Contribution guideline](#github)
 - [Linkedin](#linkedin)
 - [License](#license)
 - [Github-username](#githubusername)
@@ -15,34 +15,33 @@
 
 
    # Title <a name="title"/>
-   whether 
+   dog 
 
    ## Description <a name="description"/>
-   checks whether for the next five days
+   dog
    
    ## Installation <a name="installation"/>
-   yes inqurier
+   dogo
 
    ## Instructions <a name="instructions"/>
-   generate the file and run in github
+   o
 
-   ## Github <a name ="github"/>
-   run node index.js
+   ## Contribution guideline <a name ="github"/>
+   o
 
    ## Linkedin <a name ="linkedin"/>
-   public code so just push
+   o
 
    ## License <a name ="license"/>
-   MIT License 
-   https://opensource.org/license/mit/
+   Apache license 2.0
+   https://www.apache.org/licenses/LICENSE-2.0
 
    ## Github Username <a name ="githubusername"/>
-   Github: tkdgns0630 
-   Github address : https://github.com/tkdgns0630
+   Github: dog 
+   Github address : https://github.com/dog
 
    ## Email address <a name ="emailaddress"/>;
-   Any questions please contact : tkdgns0630@gmail.com
-   
+   Any questions please contact : dog
     
 
 
